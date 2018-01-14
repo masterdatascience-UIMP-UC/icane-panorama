@@ -127,6 +127,10 @@
 					<section data-markdown>
 						<script type="text/template">
 						## el ICANE
+						- Organismo Autónomo del Gobierno de Cantabria
+						- Áreas de estadística e informática *
+						- Principios recogidos en el [código de buenas prácticas en las estadísticas europeas](http://www.icane.es/icane/good-practices)
+
 </script>
 					</section>
 
@@ -184,85 +188,40 @@
 
 				</section>
 				<section>
-					<section data-id="2">
-
-						<h3>datos tabulares</h3>
 
 
-						<div style="line-height: 1.5em; text-align: left;">
-							<img alt="Datos tabulares"  src="./img/tabla900.png" style="max-width: none; max-height: none; color: rgb(255, 153, 0); " />
-						</div>
-					</section>
-					<section data-id="3">
-						<section data-id="3a">
-							<h4>
-								formatos de difusión
-							</h4>
+					<section data-markdown>
+						<script type="text/template">
+							## evolución: scripting manual
 
-
-							<table style="font-size:20px">
-								<thead>
-								<tr>
-									<th></th>
-									<th>consumo</th>
-									<th>complejidad</th>
-									<th>popularidad</th>
-									<th>metadata</th>
-								</tr>
-								</thead>
-								<tbody>
-								<tr>
-									<td><img alt="Icono xls" title="Excel" src="./img/xls.png" style="max-width: none; max-height: none; color: rgb(255, 153, 0); width:64px; height:64px; vertical-align:middle;" />
-									</td>
-									<td>manual</td>
-									<td><span class="fragment highlight-green" data-fragment-index="1">baja</span></td>
-									<td><span class="fragment highlight-green" data-fragment-index="1">muy alta</span> </td>
-									<td>alta</td>
-								</tr>
-								<tr>
-									<td><img alt="Icono PC-Axis"  title="PC-Axis" src="./img/pax.png" style="max-width: none; max-height: none; color: rgb(255, 153, 0); width:64px; height:64px; vertical-align:middle;" />
-									</td>
-									<td>manual/auto</td>
-									<td>media</td>
-									<td><span class="fragment highlight-green" data-fragment-index="1">alta</span></td>
-									<td><span class="fragment highlight-green" data-fragment-index="1">alta</span></td>
-								</tr>
-								<tr>
-									<td><img alt="Icono SDMX"  title="SDMX" src="./img/sdmx.png" style="max-width: none; max-height: none; color: rgb(255, 153, 0); width:64px; height:64px; vertical-align:middle;" />
-									</td>
-									<td>auto</td>
-									<td><span class="fragment highlight-red" data-fragment-index="1">muy alta</span> </td>
-									<td><span class="fragment highlight-red" data-fragment-index="1">muy baja</span> </td>
-									<td><span class="fragment highlight-green" data-fragment-index="1">alta</span></td>
-								</tr>
-								<tr>
-									<td><img alt="Icono JSON" title="JSON" src="./img/json.png" style="max-width: none; max-height: none; color: rgb(255, 153, 0); width:64px; height:64px; vertical-align:middle;" />
-									</td>
-									<td>auto</td>
-									<td><span class="fragment highlight-green" data-fragment-index="1">muy baja</span> </td>
-									<td><span class="fragment highlight-green" data-fragment-index="1">muy alta</span> </td>
-									<td><span class="fragment highlight-green" data-fragment-index="1">alta</span></td>
-								</tr>
-								<tr>
-									<td><img alt="Icono RDF"  title="RDF" src="./img/rdf.png" style="max-width: none; max-height: none; color: rgb(255, 153, 0); width:64px; height:64px; vertical-align:middle;" />
-									</td>
-									<td>auto</td>
-									<td >media</td>
-									<td><span class="fragment highlight-red" data-fragment-index="1">baja</span></td>
-									<td><span class="fragment highlight-green" data-fragment-index="1">muy alta</span></td>
-								</tr>
-
-								</tbody>
-
-							</table>
-						</section>
+							- scripts en Perl, Oracle sql loader
+							- intervención humana
+							- dificultad de depuración de errores
+							- procedimientos heterogéneos
+							- elevado tiempo de preparación y carga
+						</script>
 					</section>
 					<section data-markdown>
 						<script type="text/template">
-							## API web
-							> Conjuntos de funciones, generalmente de uso público, que permiten a programadores y usuarios avanzados la extracción automatizada de datos de la web (entre otras funcionalidades)
+							## evolución: integración de datos en Java
 
-							[Google Maps](https://developers.google.com/maps/?hl=es-419), [Twitter](https://dev.twitter.com/rest/public)
+							- Pentaho Data Integration (aka Kettle)
+							- trabajos, transformaciones y pasos
+							- dificultad de depuración de errores
+							- procedimientos heterogéneos
+							- demasiadas excepciones a la norma
+						</script>
+					</section>
+
+					<section data-markdown>
+						<script type="text/template">
+							## evolución: Python
+
+							- diseño modular flexible
+							- énfasis en configuración
+							- control total sobre la depuración de errores
+							- auténtica reutilización
+							- curva de aprendizaje suave
 						</script>
 					</section>
 					<section data-markdown>
