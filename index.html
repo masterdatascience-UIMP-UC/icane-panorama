@@ -55,7 +55,7 @@
 						<script type="text/template">
 							### oficinas estadísticas públicas
 
-							producción, análisis y difusión de estadísticas sobre la economía, sociedad y población de una región<!-- .element: class="fragment" data-fragment-index="1" -->
+							producción, recopilación, análisis y difusión de estadísticas sobre la economía, sociedad y población de una región<!-- .element: class="fragment" data-fragment-index="1" -->
 							</script>
 					</section>
 					<section data-markdown>
@@ -140,7 +140,7 @@
 						<script type="text/template">
 							### ejemplo: PIB de Cantabria (CTC)
 
-							- se parte de estadísticas relacionadas con actividad económica y CRAE<!-- .element: class="fragment" data-fragment-index="1" -->
+							- se parte de estadísticas relacionadas con actividad económica y CRE<!-- .element: class="fragment" data-fragment-index="1" -->
 							- se elaboran indicadores sintéticos de actividad<!-- .element: class="fragment" data-fragment-index="2" -->
 							- se predice el VAB por sector y se trimestraliza el VAB anual<!-- .element: class="fragment" data-fragment-index="3" -->
 							- se obtiene el PIB trimestral de Cantabria a precios de mercado<!-- .element: class="fragment" data-fragment-index="4" -->
@@ -164,6 +164,7 @@
 							### ejemplo: PIB con BVAR
 
 							- VAR: PIB se estima a partir de sus valores presentes y pasados y del resto de indicadores<!-- .element: class="fragment" data-fragment-index="1" -->
+							- Indicadores: PIB España, PIB Cantabria, deflactor, empleo
 							- Bayesian: se incorpora información a priori (ej: hipótesis de país pequeño)<!-- .element: class="fragment" data-fragment-index="2" -->
 
 						</script>
@@ -183,8 +184,8 @@
 
 							- calidad de datos<!-- .element: class="fragment" data-fragment-index="1" -->
 							- privacidad de datos (statistical disclosure control)<!-- .element: class="fragment" data-fragment-index="2" -->
-							- difusión de datos y metadatos (SDMX, JSON-stat)<!-- .element: class="fragment" data-fragment-index="3" -->
-							- modelos de procesos estadísticos (GSBPM)<!-- .element: class="fragment" data-fragment-index="4" -->
+							- difusión de datos y metadatos<!-- .element: class="fragment" data-fragment-index="3" --> ([SDMX](https://sdmx.org/)<!-- .element: class="fragment" data-fragment-index="3" -->, [JSON-stat](https://json-stat.org/))<!-- .element: class="fragment" data-fragment-index="3" -->
+							- modelos de procesos estadísticos (<!-- .element: class="fragment" data-fragment-index="4" -->[GSBPM](https://statswiki.unece.org/display/GSBPM/GSBPM+v5.0))<!-- .element: class="fragment" data-fragment-index="4" -->
 
 						</script>
 					</section>
@@ -192,7 +193,7 @@
 						<script type="text/template">
 							### nuevas competencias
 
-							- modelos de metadatos (DDC, DCAT, Dublin Core)<!-- .element: class="fragment" data-fragment-index="1" -->
+							- modelos de metadatos (<!-- .element: class="fragment" data-fragment-index="1" -->[DCAT](https://www.w3.org/TR/vocab-dcat/)<!-- .element: class="fragment" data-fragment-index="1" -->, [Dublin Core](http://dublincore.org/))<!-- .element: class="fragment" data-fragment-index="1" -->
 							- lingüística computacional<!-- .element: class="fragment" data-fragment-index="2" -->
 							- APIs REST<!-- .element: class="fragment" data-fragment-index="3" -->
 							- tratamiento de datos en Python y R<!-- .element: class="fragment" data-fragment-index="4" -->
@@ -234,6 +235,18 @@
 							- extract: desde fuentes heterogéneas <!-- .element: class="fragment" data-fragment-index="1" -->
 							- transform: adaptación a la estructura de destino<!-- .element: class="fragment" data-fragment-index="2" -->
 							- load: carga en base de datos destino<!-- .element: class="fragment" data-fragment-index="3" -->
+
+						</script>
+					</section>
+					<section data-markdown>
+						<script type="text/template">
+							### algunos números
+
+							- 2500 series de datos, 7K tablas, 15M registros
+							- 2000 tablas de microdatos, 250M registros
+							- al año se actualizan al menos la mitad de las series
+							- 50 GB de microdatos y 3 GB de agregados
+
 
 						</script>
 					</section>
@@ -365,7 +378,7 @@
 
 							- extractores masivos de datos<!-- .element: class="fragment" data-fragment-index="1" -->
 							- operaciones en base de datos<!-- .element: class="fragment" data-fragment-index="2" -->
-							- conversión de formatos (Pc-axis)<!-- .element: class="fragment" data-fragment-index="3" -->
+							- conversión de formatos <!-- .element: class="fragment" data-fragment-index="3" -->([Pc-axis](https://www.scb.se/sv_/PC-Axis/Start/))<!-- .element: class="fragment" data-fragment-index="3" -->
 							- creación de los conectores de base de datos<!-- .element: class="fragment" data-fragment-index="4" -->
 							- logging<!-- .element: class="fragment" data-fragment-index="5" -->
 							- metadatos<!-- .element: class="fragment" data-fragment-index="6" -->
@@ -405,18 +418,7 @@
 
 						</script>
 					</section>
-					<section data-markdown>
-						<script type="text/template">
-							### algunos números
 
-							- 2500 series de datos, 7K tablas, 15M registros
-							- 2000 tablas de microdatos, 250M registros
-							- al año se actualizan al menos la mitad de las series
-							- 50 GB de microdatos y 3 GB de agregados
-
-
-						</script>
-					</section>
 
 </section>
 				<section data-id="3">
@@ -430,7 +432,7 @@
 					</section>
 					<section data-id="3a">
 						<h4>
-							formatos de difusión
+							<a href="http://www.icane.es/data/quarterly-accounting-cantabria-base-2010-current-prices#timeseries" >formatos de difusión</a>
 						</h4>
 
 
@@ -454,7 +456,7 @@
 								<td>alta</td>
 							</tr>
 							<tr>
-								<td><img alt="Icono PC-Axis"  title="PC-Axis" src="./img/pax.png" style="max-width: none; max-height: none; color: rgb(255, 153, 0); width:64px; height:64px; vertical-align:middle;" />
+								<td><a href="https://www.scb.se/sv_/PC-Axis/Start/"><img alt="Icono PC-Axis"  title="PC-Axis" src="./img/pax.png" style="max-width: none; max-height: none; color: rgb(255, 153, 0); width:64px; height:64px; vertical-align:middle;" /></a>
 								</td>
 								<td>manual/auto</td>
 								<td>media</td>
@@ -462,7 +464,7 @@
 								<td><span class="fragment highlight-green" data-fragment-index="1">alta</span></td>
 							</tr>
 							<tr>
-								<td><img alt="Icono SDMX"  title="SDMX" src="./img/sdmx.png" style="max-width: none; max-height: none; color: rgb(255, 153, 0); width:64px; height:64px; vertical-align:middle;" />
+								<td><a href="https://sdmx.org/"><img alt="Icono SDMX"  title="SDMX" src="./img/sdmx.png" style="max-width: none; max-height: none; color: rgb(255, 153, 0); width:64px; height:64px; vertical-align:middle;" /></a>
 								</td>
 								<td>auto</td>
 								<td><span class="fragment highlight-red" data-fragment-index="1">muy alta</span> </td>
@@ -470,7 +472,7 @@
 								<td><span class="fragment highlight-green" data-fragment-index="1">alta</span></td>
 							</tr>
 							<tr>
-								<td><img alt="Icono JSON" title="JSON" src="./img/json.png" style="max-width: none; max-height: none; color: rgb(255, 153, 0); width:64px; height:64px; vertical-align:middle;" />
+								<td><a href="https://json-stat.org/"><img alt="Icono JSON" title="JSON" src="./img/json.png" style="max-width: none; max-height: none; color: rgb(255, 153, 0); width:64px; height:64px; vertical-align:middle;" /></a>
 								</td>
 								<td>auto</td>
 								<td><span class="fragment highlight-green" data-fragment-index="1">muy baja</span> </td>
@@ -478,7 +480,7 @@
 								<td><span class="fragment highlight-green" data-fragment-index="1">alta</span></td>
 							</tr>
 							<tr>
-								<td><img alt="Icono RDF"  title="RDF" src="./img/rdf.png" style="max-width: none; max-height: none; color: rgb(255, 153, 0); width:64px; height:64px; vertical-align:middle;" />
+								<td><a href="https://www.w3.org/TR/vocab-data-cube/"><img alt="Icono RDF"  title="RDF" src="./img/rdf.png" style="max-width: none; max-height: none; color: rgb(255, 153, 0); width:64px; height:64px; vertical-align:middle;" /></a>
 								</td>
 								<td>auto</td>
 								<td >media</td>
@@ -647,9 +649,9 @@
 						<script type="text/template">
 							### privacidad y secreto estadístico
 
-							debe existir un equilibrio entre la información suministrada y los derechos o intereses de los usuarios objeto de dicha información
+							debe existir un equilibrio entre la información suministrada y los derechos o intereses de los usuarios objeto de dicha información<!-- .element: class="fragment" data-fragment-index="1" -->
 
-							**no se pueden publicar datos que permitan inferir conclusiones acerca de individuos o unidades reconocibles**
+							**no se pueden publicar datos que permitan inferir conclusiones acerca de individuos o unidades reconocibles**<!-- .element: class="fragment" data-fragment-index="2" -->
 
 
 						</script>
@@ -658,10 +660,10 @@
 						<script type="text/template">
 							### técnicas SDC
 
-							- Supresión de valores
-							- Rediseño de tablas (niveles de agregación)
-							- CTA (Controlled Tabular Adjustment): cambiar valores "lo suficiente"
-							- Microdatos: PRAM (Post-Randomization Method): con probabilidades de "desclasificación"
+							- Supresión de valores (programación lineal)<!-- .element: class="fragment" data-fragment-index="1" -->
+							- Rediseño de tablas (niveles de agregación)<!-- .element: class="fragment" data-fragment-index="2" -->
+							- CTA (Controlled Tabular Adjustment): cambiar valores "lo suficiente"<!-- .element: class="fragment" data-fragment-index="3" -->
+							- Microdatos: PRAM (Post-Randomization Method): con probabilidades de "desclasificación"<!-- .element: class="fragment" data-fragment-index="4" -->
 
 
 						</script>
@@ -842,7 +844,7 @@
 						<script type="text/template">
 							### conclusión
 
-							- se necesitan nuevos perfiles en la estadística pública y en la Administración en general<!-- .element: class="fragment" data-fragment-index="1" -->
+							- se necesitan nuevos perfiles en la estadística pública y en la Administración en general que sean capaces de satisfacer las necesidades de información de la organización y la sociedad<!-- .element: class="fragment" data-fragment-index="1" -->
 							- la democratización de las tecnologías de tratamiento de datos ofrece grandes oportunidades para innovar y aportar valor<!-- .element: class="fragment" data-fragment-index="2" -->
 							- apostar por una "data-driven society" puede contribuir a mejorar considerablemente la calidad de vida<!-- .element: class="fragment" data-fragment-index="3" -->
 							- en Cantabria, está todo por hacer<!-- .element: class="fragment" data-fragment-index="4" -->
@@ -893,8 +895,16 @@
 			{ src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
 			{ src: 'plugin/zoom-js/zoom.js', async: true },
 			{ src: 'plugin/tagcloud/tagcloud.js', async: true },
+			{ src: 'plugin/chalkboard/chalkboard.js' },
 			{ src: 'plugin/notes/notes.js', async: true }
-			]
+			],
+			keyboard: {
+				67: function() { RevealChalkboard.toggleNotesCanvas() },	// toggle notes canvas when 'c' is pressed
+				66: function() { RevealChalkboard.toggleChalkboard() },	// toggle chalkboard when 'b' is pressed
+				46: function() { RevealChalkboard.clear() },	// clear chalkboard when 'DEL' is pressed
+				 8: function() { RevealChalkboard.reset() },	// reset chalkboard data on current slide when 'BACKSPACE' is pressed
+				68: function() { RevealChalkboard.download() },	// downlad recorded chalkboard drawing when 'd' is pressed
+			}
 			});
 
 			</script>
