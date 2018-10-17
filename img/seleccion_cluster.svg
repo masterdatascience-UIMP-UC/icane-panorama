@@ -1,0 +1,672 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="156.62407mm"
+   height="96.028709mm"
+   viewBox="0 0 156.62407 96.028709"
+   version="1.1"
+   id="svg6666"
+   inkscape:version="0.92.1 r15371"
+   sodipodi:docname="seleccion_cluster.svg">
+  <defs
+     id="defs6660">
+    <marker
+       id="sequenceflow-end-white-black-2eww2i0648nx78i2xmobulb68"
+       viewBox="0 0 20 20"
+       refX="11"
+       refY="10"
+       markerWidth="10"
+       markerHeight="10"
+       orient="auto">
+      <path
+         inkscape:connector-curvature="0"
+         d="M 1,5 11,10 1,15 Z"
+         style="fill:#000000;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-dasharray:10000, 1"
+         id="path2" />
+    </marker>
+    <marker
+       id="marker6549"
+       viewBox="0 0 20 20"
+       refX="11"
+       refY="10"
+       markerWidth="10"
+       markerHeight="10"
+       orient="auto">
+      <path
+         inkscape:connector-curvature="0"
+         d="M 1,5 11,10 1,15 Z"
+         style="fill:#000000;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-dasharray:10000, 1"
+         id="path6547" />
+    </marker>
+    <marker
+       id="marker6553"
+       viewBox="0 0 20 20"
+       refX="11"
+       refY="10"
+       markerWidth="10"
+       markerHeight="10"
+       orient="auto">
+      <path
+         inkscape:connector-curvature="0"
+         d="M 1,5 11,10 1,15 Z"
+         style="fill:#000000;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-dasharray:10000, 1"
+         id="path6551" />
+    </marker>
+    <marker
+       id="marker6557"
+       viewBox="0 0 20 20"
+       refX="11"
+       refY="10"
+       markerWidth="10"
+       markerHeight="10"
+       orient="auto">
+      <path
+         inkscape:connector-curvature="0"
+         d="M 1,5 11,10 1,15 Z"
+         style="fill:#000000;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-dasharray:10000, 1"
+         id="path6555" />
+    </marker>
+    <marker
+       id="marker6561"
+       viewBox="0 0 20 20"
+       refX="11"
+       refY="10"
+       markerWidth="10"
+       markerHeight="10"
+       orient="auto">
+      <path
+         inkscape:connector-curvature="0"
+         d="M 1,5 11,10 1,15 Z"
+         style="fill:#000000;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-dasharray:10000, 1"
+         id="path6559" />
+    </marker>
+    <marker
+       id="marker6565"
+       viewBox="0 0 20 20"
+       refX="11"
+       refY="10"
+       markerWidth="10"
+       markerHeight="10"
+       orient="auto">
+      <path
+         inkscape:connector-curvature="0"
+         d="M 1,5 11,10 1,15 Z"
+         style="fill:#000000;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-dasharray:10000, 1"
+         id="path6563" />
+    </marker>
+    <marker
+       id="marker6569"
+       viewBox="0 0 20 20"
+       refX="11"
+       refY="10"
+       markerWidth="10"
+       markerHeight="10"
+       orient="auto">
+      <path
+         inkscape:connector-curvature="0"
+         d="M 1,5 11,10 1,15 Z"
+         style="fill:#000000;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-dasharray:10000, 1"
+         id="path6567" />
+    </marker>
+    <marker
+       id="marker6573"
+       viewBox="0 0 20 20"
+       refX="11"
+       refY="10"
+       markerWidth="10"
+       markerHeight="10"
+       orient="auto">
+      <path
+         inkscape:connector-curvature="0"
+         d="M 1,5 11,10 1,15 Z"
+         style="fill:#000000;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-dasharray:10000, 1"
+         id="path6571" />
+    </marker>
+    <marker
+       id="marker6577"
+       viewBox="0 0 20 20"
+       refX="11"
+       refY="10"
+       markerWidth="10"
+       markerHeight="10"
+       orient="auto">
+      <path
+         inkscape:connector-curvature="0"
+         d="M 1,5 11,10 1,15 Z"
+         style="fill:#000000;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-dasharray:10000, 1"
+         id="path6575" />
+    </marker>
+    <marker
+       id="marker6581"
+       viewBox="0 0 20 20"
+       refX="11"
+       refY="10"
+       markerWidth="10"
+       markerHeight="10"
+       orient="auto">
+      <path
+         inkscape:connector-curvature="0"
+         d="M 1,5 11,10 1,15 Z"
+         style="fill:#000000;stroke:#000000;stroke-width:1px;stroke-linecap:round;stroke-dasharray:10000, 1"
+         id="path6579" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="276.23545"
+     inkscape:cy="166.51733"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1043"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata6663">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-19.889063,-17.28624)">
+    <rect
+       x="19.889063"
+       y="17.28624"
+       width="156.62407"
+       height="96.028709"
+       rx="1.4462055"
+       ry="1.2941874"
+       style="display:block;fill:#ffffff;fill-opacity:0.95;stroke:none;stroke-width:0.27361733px"
+       id="rect459" />
+    <text
+       y="16.796078"
+       x="15.409818"
+       style="font-weight:normal;font-size:1.88296139px;font-family:Arial, sans-serif;display:block;fill:#000000;stroke-width:0.15691346"
+       lineHeight="1.2"
+       class="djs-label"
+       id="text465"
+       transform="scale(0.98373932,1.0165295)">
+      <tspan
+         x="91.512833"
+         y="19.275309"
+         id="tspan461"
+         style="stroke-width:0.15691346">Selección del clúster</tspan>
+      <tspan
+         x="100.37845"
+         y="21.534864"
+         id="tspan463"
+         style="stroke-width:0.15691346" />
+    </text>
+    <path
+       inkscape:connector-curvature="0"
+       d="m 151.20452,56.111864 h 9.25571"
+       style="display:block;fill:none;stroke:#000000;stroke-width:0.27361733px;stroke-linejoin:round;marker-end:url(#sequenceflow-end-white-black-2eww2i0648nx78i2xmobulb68)"
+       id="path475" />
+    <path
+       inkscape:connector-curvature="0"
+       d="m 129.2222,83.678058 h 18.36681 V 59.347333"
+       style="display:block;fill:none;stroke:#000000;stroke-width:0.27361733px;stroke-linejoin:round;marker-end:url(#sequenceflow-end-white-black-2eww2i0648nx78i2xmobulb68)"
+       id="path487" />
+    <path
+       inkscape:connector-curvature="0"
+       d="m 129.2222,56.111864 h 14.75129"
+       style="display:block;fill:none;stroke:#000000;stroke-width:0.27361733px;stroke-linejoin:round;marker-end:url(#sequenceflow-end-white-black-2eww2i0648nx78i2xmobulb68)"
+       id="path499" />
+    <path
+       inkscape:connector-curvature="0"
+       d="m 129.2222,28.286834 h 18.36681 v 24.589561"
+       style="display:block;fill:none;stroke:#000000;stroke-width:0.27361733px;stroke-linejoin:round;marker-end:url(#sequenceflow-end-white-black-2eww2i0648nx78i2xmobulb68)"
+       id="path511" />
+    <path
+       inkscape:connector-curvature="0"
+       d="m 96.24871,83.678058 h 18.51143"
+       style="display:block;fill:none;stroke:#000000;stroke-width:0.27361733px;stroke-linejoin:round;marker-end:url(#sequenceflow-end-white-black-2eww2i0648nx78i2xmobulb68)"
+       id="path523" />
+    <path
+       inkscape:connector-curvature="0"
+       d="M 56.911922,51.323371 V 65.81827 h 11.425023"
+       style="display:block;fill:none;stroke:#000000;stroke-width:0.27361733px;stroke-linejoin:round;marker-end:url(#sequenceflow-end-white-black-2eww2i0648nx78i2xmobulb68)"
+       id="path535" />
+    <path
+       inkscape:connector-curvature="0"
+       d="M 71.952459,62.582802 V 56.111864 H 114.76014"
+       style="display:block;fill:none;stroke:#000000;stroke-width:0.27361733px;stroke-linejoin:round;marker-end:url(#sequenceflow-end-white-black-2eww2i0648nx78i2xmobulb68)"
+       id="path547" />
+    <path
+       inkscape:connector-curvature="0"
+       d="m 71.952459,69.053741 v 14.624317 h 9.834197"
+       style="display:block;fill:none;stroke:#000000;stroke-width:0.27361733px;stroke-linejoin:round;marker-end:url(#sequenceflow-end-white-black-2eww2i0648nx78i2xmobulb68)"
+       id="path559" />
+    <path
+       inkscape:connector-curvature="0"
+       d="M 35.508079,48.087902 H 53.296408"
+       style="display:block;fill:none;stroke:#000000;stroke-width:0.27361733px;stroke-linejoin:round;marker-end:url(#sequenceflow-end-white-black-2eww2i0648nx78i2xmobulb68)"
+       id="path571" />
+    <path
+       inkscape:connector-curvature="0"
+       d="M 56.911922,44.852433 V 28.286834 h 57.848218"
+       style="display:block;fill:none;stroke:#000000;stroke-width:0.27361733px;stroke-linejoin:round;marker-end:url(#sequenceflow-end-white-black-2eww2i0648nx78i2xmobulb68)"
+       id="path583" />
+    <ellipse
+       cx="163.06342"
+       cy="56.111862"
+       style="display:block;fill:#ffffff;fill-opacity:0.95;stroke:#000000;stroke-width:0.13680866px"
+       id="circle595"
+       rx="2.6031699"
+       ry="2.3295374" />
+    <ellipse
+       cx="163.06342"
+       cy="56.111862"
+       style="display:block;fill:none;stroke:#000000;stroke-width:0.13680866px"
+       id="circle597"
+       rx="2.1693082"
+       ry="1.9412812" />
+    <rect
+       x="114.76015"
+       y="23.110085"
+       width="14.462055"
+       height="10.353499"
+       rx="1.4462055"
+       ry="1.2941874"
+       style="display:block;fill:#ffffff;fill-opacity:0.95;stroke:#000000;stroke-width:0.27361733px"
+       id="rect609" />
+    <text
+       y="22.867256"
+       x="111.39079"
+       style="font-weight:normal;font-size:2.13651514px;font-family:Arial, sans-serif;display:block;fill:#000000;stroke-width:0.17804295"
+       lineHeight="1.2"
+       class="djs-label"
+       id="text617"
+       transform="scale(1.0136915,0.98649343)">
+      <tspan
+         x="114.41751"
+         y="28.066109"
+         id="tspan611"
+         style="stroke-width:0.17804295">Marcar para</tspan>
+      <tspan
+         x="116.46498"
+         y="30.629932"
+         id="tspan613"
+         style="stroke-width:0.17804295">revisión</tspan>
+      <tspan
+         x="120.29292"
+         y="33.193748"
+         id="tspan615"
+         style="stroke-width:0.17804295" />
+    </text>
+    <ellipse
+       cx="32.904911"
+       cy="48.087902"
+       style="display:block;fill:#ffffff;fill-opacity:0.95;stroke:#000000;stroke-width:0.27361733px"
+       id="circle629"
+       rx="2.6031699"
+       ry="2.3295374" />
+    <rect
+       x="114.76015"
+       y="78.501305"
+       width="14.462055"
+       height="10.353499"
+       rx="1.4462055"
+       ry="1.2941874"
+       style="display:block;fill:#ffffff;fill-opacity:0.95;stroke:#000000;stroke-width:0.27361733px"
+       id="rect641" />
+    <text
+       y="75.433701"
+       x="115.7179"
+       style="font-weight:normal;font-size:2.25381207px;font-family:Arial, sans-serif;display:block;fill:#000000;stroke-width:0.18781766"
+       lineHeight="1.2"
+       class="djs-label"
+       id="text649"
+       transform="scale(0.97531859,1.025306)">
+      <tspan
+         x="119.00471"
+         y="80.917976"
+         id="tspan643"
+         style="stroke-width:0.18781766">Seleccionar</tspan>
+      <tspan
+         x="121.72807"
+         y="83.622551"
+         id="tspan645"
+         style="stroke-width:0.18781766">clúster</tspan>
+      <tspan
+         x="125.10879"
+         y="86.327118"
+         id="tspan647"
+         style="stroke-width:0.18781766" />
+    </text>
+    <rect
+       x="114.76015"
+       y="50.935116"
+       width="14.462055"
+       height="10.353499"
+       rx="1.4462055"
+       ry="1.2941874"
+       style="display:block;fill:#ffffff;fill-opacity:0.95;stroke:#000000;stroke-width:0.27361733px"
+       id="rect661" />
+    <text
+       y="48.480484"
+       x="116.65199"
+       style="font-weight:normal;font-size:2.23846269px;font-family:Arial, sans-serif;display:block;fill:#000000;stroke-width:0.18653855"
+       lineHeight="1.2"
+       class="djs-label"
+       id="text669"
+       transform="scale(0.96875652,1.0322511)">
+      <tspan
+         x="118.70388"
+         y="53.927406"
+         id="tspan663"
+         style="stroke-width:0.18653855">Seleccionar el</tspan>
+      <tspan
+         x="121.68853"
+         y="56.613567"
+         id="tspan665"
+         style="stroke-width:0.18653855">clúster 0</tspan>
+      <tspan
+         x="125.9789"
+         y="59.299717"
+         id="tspan667"
+         style="stroke-width:0.18653855" />
+    </text>
+    <path
+       inkscape:connector-curvature="0"
+       d="m 70.650874,64.524083 1.074324,1.257211 -1.074324,1.257212 h 0.495841 l 0.826404,-0.966016 0.826403,0.966016 h 0.495841 l -1.074324,-1.257212 1.074324,-1.257211 h -0.495841 l -0.826403,0.966011 -0.826404,-0.966011 z"
+       style="display:block;fill:#000000;stroke:#000000;stroke-width:0.13680866px"
+       id="path683" />
+    <text
+       y="61.193474"
+       x="79.3675"
+       style="font-weight:normal;font-size:2.11892223px;font-family:Arial, sans-serif;display:block;fill:#000000;stroke-width:0.19262928"
+       lineHeight="1.2"
+       class="djs-label"
+       id="text701"
+       transform="scale(0.96989789,1.0310364)">
+      <tspan
+         x="79.3675"
+         y="63.100506"
+         id="tspan695"
+         style="stroke-width:0.19262928">¿Hay más de un</tspan>
+      <tspan
+         x="83.412697"
+         y="65.643211"
+         id="tspan697"
+         style="stroke-width:0.19262928">clúster?</tspan>
+      <tspan
+         x="87.168976"
+         y="68.185913"
+         id="tspan699"
+         style="stroke-width:0.19262928" />
+    </text>
+    <polygon
+       transform="matrix(0.14462055,0,0,0.12941875,53.296408,44.852433)"
+       points="50,25 25,50 0,25 25,0 "
+       style="display:block;fill:#ffffff;fill-opacity:0.95;stroke:#000000;stroke-width:2px"
+       id="polygon713" />
+    <path
+       inkscape:connector-curvature="0"
+       d="m 55.610337,46.793714 1.074324,1.257212 -1.074324,1.257209 h 0.495842 l 0.826403,-0.966011 0.826403,0.966011 h 0.495842 l -1.074324,-1.257209 1.074324,-1.257212 h -0.495842 l -0.826403,0.966012 -0.826403,-0.966012 z"
+       style="display:block;fill:#000000;stroke:#000000;stroke-width:0.13680866px"
+       id="path715" />
+    <text
+       y="43.013729"
+       x="66.383972"
+       style="font-weight:normal;font-size:2.25908732px;font-family:Arial, sans-serif;display:block;fill:#000000;stroke-width:0.20537157"
+       lineHeight="1.2"
+       class="djs-label"
+       id="text731"
+       transform="scale(0.93296266,1.0718543)">
+      <tspan
+         x="66.383972"
+         y="45.046906"
+         id="tspan727"
+         style="stroke-width:0.20537157">¿Existe cluster?</tspan>
+      <tspan
+         x="74.496155"
+         y="47.757812"
+         id="tspan729"
+         style="stroke-width:0.20537157" />
+    </text>
+    <rect
+       x="81.786652"
+       y="78.501305"
+       width="14.462055"
+       height="10.353499"
+       rx="1.4462055"
+       ry="1.2941874"
+       style="display:block;fill:#ffffff;fill-opacity:0.95;stroke:#000000;stroke-width:0.27361733px"
+       id="rect743" />
+    <text
+       y="72.608902"
+       x="86.5084"
+       style="font-weight:normal;font-size:2.1333673px;font-family:Arial, sans-serif;display:block;fill:#000000;stroke-width:0.17778061"
+       lineHeight="1.2"
+       class="djs-label"
+       id="text753"
+       transform="scale(0.93620422,1.068143)">
+      <tspan
+         x="87.575081"
+         y="76.520065"
+         id="tspan745"
+         style="stroke-width:0.17778061">Procesar listado</tspan>
+      <tspan
+         x="87.486198"
+         y="79.080116"
+         id="tspan747"
+         style="stroke-width:0.17778061">de coordenadas</tspan>
+      <tspan
+         x="88.552879"
+         y="81.64016"
+         id="tspan749"
+         style="stroke-width:0.17778061">por proveedor</tspan>
+      <tspan
+         x="95.39743"
+         y="84.200188"
+         id="tspan751"
+         style="stroke-width:0.17778061" />
+    </text>
+    <polygon
+       transform="matrix(0.14462055,0,0,0.12941875,143.97349,52.876395)"
+       points="50,25 25,50 0,25 25,0 "
+       style="display:block;fill:#ffffff;fill-opacity:0.95;stroke:#000000;stroke-width:2px"
+       id="polygon765" />
+    <ellipse
+       cx="147.589"
+       cy="56.111862"
+       style="display:block;fill:#ffffff;stroke:#000000;stroke-width:0.34202164px"
+       id="circle767"
+       rx="1.8800671"
+       ry="1.6824437" />
+    <path
+       inkscape:connector-curvature="0"
+       d="m 114.7689,96.120058 m 1.42678,0 h -1.42678 v 15.453772 h 1.42678"
+       style="display:block;fill:none;stroke:#000000;stroke-width:0.29999283px"
+       id="path781" />
+    <text
+       y="97.528053"
+       x="112.60532"
+       style="font-weight:normal;font-size:2.04555559px;font-family:Arial, sans-serif;display:block;fill:#000000;stroke-width:0.17046297"
+       lineHeight="1.2"
+       class="djs-label"
+       id="text795"
+       transform="scale(1.0177433,0.98256599)">
+      <tspan
+         x="113.45761"
+         y="100.22137"
+         id="tspan783"
+         style="stroke-width:0.17046297">al que</tspan>
+      <tspan
+         x="113.45761"
+         y="102.67603"
+         id="tspan785"
+         style="stroke-width:0.17046297">pertenece el</tspan>
+      <tspan
+         x="113.45761"
+         y="105.13069"
+         id="tspan787"
+         style="stroke-width:0.17046297">primer</tspan>
+      <tspan
+         x="113.45761"
+         y="107.58537"
+         id="tspan789"
+         style="stroke-width:0.17046297">proveedor</tspan>
+      <tspan
+         x="113.45761"
+         y="110.04002"
+         id="tspan791"
+         style="stroke-width:0.17046297">elegible con</tspan>
+      <tspan
+         x="113.45761"
+         y="112.49471"
+         id="tspan793"
+         style="stroke-width:0.17046297">coordenada</tspan>
+    </text>
+    <path
+       inkscape:connector-curvature="0"
+       d="m 114.76014,40.969871 m 1.44621,0 h -1.44621 v 3.882562 h 1.44621"
+       style="display:block;fill:none;stroke:#000000;stroke-width:0.27361733px"
+       id="path809" />
+    <text
+       y="37.058025"
+       x="125.01785"
+       style="font-weight:normal;font-size:2.26111197px;font-family:Arial, sans-serif;display:block;fill:#000000;stroke-width:0.18842599"
+       lineHeight="1.2"
+       class="djs-label"
+       id="text813"
+       transform="scale(0.91672038,1.0908452)">
+      <tspan
+         x="125.95996"
+         y="40.035156"
+         id="tspan811"
+         style="stroke-width:0.18842599">clúster = -1</tspan>
+    </text>
+    <path
+       inkscape:connector-curvature="0"
+       d="m 81.800225,96.518364 m 1.416095,0 h -1.416095 v 9.601406 h 1.416095"
+       style="display:block;fill:none;stroke:#000000;stroke-width:0.31445768px"
+       id="path827" />
+    <text
+       y="89.031548"
+       x="88.137947"
+       style="font-weight:normal;font-size:2.10933089px;font-family:Arial, sans-serif;display:block;fill:#000000;stroke-width:0.17577755"
+       lineHeight="1.2"
+       class="djs-label"
+       id="text835"
+       transform="scale(0.92678137,1.0790031)">
+      <tspan
+         x="89.016846"
+         y="91.808823"
+         id="tspan829"
+         style="stroke-width:0.17577755">Ordenadas de</tspan>
+      <tspan
+         x="89.016846"
+         y="94.340027"
+         id="tspan831"
+         style="stroke-width:0.17577755">mayor a menor</tspan>
+      <tspan
+         x="89.016846"
+         y="96.871201"
+         id="tspan833"
+         style="stroke-width:0.17577755">por preferencia</tspan>
+    </text>
+    <text
+       y="33.662994"
+       x="62.685551"
+       style="font-weight:normal;font-size:2.3379178px;font-family:Arial, sans-serif;display:block;fill:#000000;stroke-width:0.212538"
+       lineHeight="1.2"
+       class="djs-label"
+       id="text849"
+       transform="scale(0.92565534,1.0803157)">
+      <tspan
+         x="62.685551"
+         y="35.767109"
+         id="tspan847"
+         style="stroke-width:0.212538">No</tspan>
+    </text>
+    <text
+       y="74.123268"
+       x="75.283539"
+       style="font-weight:normal;font-size:2.09143162px;font-family:Arial, sans-serif;display:block;fill:#000000;stroke-width:0.19013016"
+       lineHeight="1.2"
+       class="djs-label"
+       id="text863"
+       transform="scale(0.97469582,1.0259611)">
+      <tspan
+         x="75.283539"
+         y="76.005554"
+         id="tspan861"
+         style="stroke-width:0.19013016">Sí</tspan>
+    </text>
+    <text
+       y="58.902443"
+       x="72.968155"
+       style="font-weight:normal;font-size:2.16121531px;font-family:Arial, sans-serif;display:block;fill:#000000;stroke-width:0.19647413"
+       lineHeight="1.2"
+       class="djs-label"
+       id="text877"
+       transform="scale(1.0013376,0.99866418)">
+      <tspan
+         x="72.968155"
+         y="60.847534"
+         id="tspan875"
+         style="stroke-width:0.19647413">No</tspan>
+    </text>
+    <text
+       y="56.273167"
+       x="60.149647"
+       style="font-weight:normal;font-size:2.25593472px;font-family:Arial, sans-serif;display:block;fill:#000000;stroke-width:0.20508499"
+       lineHeight="1.2"
+       class="djs-label"
+       id="text891"
+       transform="scale(0.96976987,1.0311725)">
+      <tspan
+         x="60.149647"
+         y="58.303501"
+         id="tspan889"
+         style="stroke-width:0.20508499">Sí</tspan>
+    </text>
+    <polyline
+       transform="matrix(0.14462055,0,0,0.12941875,55.610337,-13.256585)"
+       points="459,789 459,845 "
+       style="display:block;fill:none;stroke:#000000;stroke-width:2px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:0.5, 5"
+       id="polyline903" />
+    <polyline
+       transform="matrix(0.14462055,0,0,0.12941875,55.610337,-13.256585)"
+       points="459,361 459,419 "
+       style="display:block;fill:none;stroke:#000000;stroke-width:2px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:0.5, 5"
+       id="polyline915" />
+    <polyline
+       transform="matrix(0.14462055,0,0,0.12941875,55.610337,-13.256585)"
+       points="231,789 231,848 "
+       style="display:block;fill:none;stroke:#000000;stroke-width:2px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:0.5, 5"
+       id="polyline927" />
+    <polygon
+       transform="matrix(0.14462055,0,0,0.12941875,68.336945,62.582804)"
+       points="25,50 0,25 25,0 50,25 "
+       style="display:block;fill:none;fill-opacity:0.95;stroke:#000000;stroke-width:2px"
+       id="polygon713-6" />
+  </g>
+</svg>

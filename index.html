@@ -164,8 +164,8 @@
 							### ejemplo: PIB con BVAR
 
 							- VAR: PIB se estima a partir de sus valores presentes y pasados y del resto de indicadores<!-- .element: class="fragment" data-fragment-index="1" -->
-							- Indicadores: PIB España, PIB Cantabria, deflactor, empleo
-							- Bayesian: se incorpora información a priori (ej: hipótesis de país pequeño)<!-- .element: class="fragment" data-fragment-index="2" -->
+							- Indicadores: PIB España, PIB Cantabria, deflactor, empleo<!-- .element: class="fragment" data-fragment-index="2" -->
+							- Bayesian: se incorpora información a priori (ej: hipótesis de país pequeño)<!-- .element: class="fragment" data-fragment-index="3" -->
 
 						</script>
 					</section>
@@ -270,7 +270,7 @@
 
 					<section data-markdown>
 						<script type="text/template">
-							#### ejemplo: diseño de registro
+							## ejemplo: diseño de registro <!-- .slide: style="font-size: 30px;"-->
 
 							|VARIABLE |LONGITUD|POSICIÓN INICIO|POSICIÓN FIN|VALORES VÁLIDOS|
 							|---------|--------|---------------|------------|---------------|
@@ -411,13 +411,113 @@
 
 					<section data-markdown>
 						<script type="text/template">
-							### geocodificación del directorio
+							### geocodificación de direcciones postales
 
-							![Geocodificación](./img/geocoder.png)
+							multigeocodificador
+
+							- Facilitar el proceso de geocodificación <!-- .element: class="fragment" data-fragment-index="1" -->
+							- Integrar diversos proveedores <!-- .element: class="fragment" data-fragment-index="2" -->
+							- Mejorar la fiabilidad de los resultados finales <!-- .element: class="fragment" data-fragment-index="3" -->
+							- Ponerlo en valor <!-- .element: class="fragment" data-fragment-index="4" -->
 
 
 						</script>
 					</section>
+					<section data-id="1" data-markdown>
+						<script type="text/template">
+							### Tecnología
+	
+							- <!-- .element: class="fragment" data-fragment-index="1" -->[Python 3.5](https://www.python.org/) <!-- .element: class="fragment" data-fragment-index="1" -->
+							- <!-- .element: class="fragment" data-fragment-index="2" -->[Geocoder 1.23.2](https://geocoder.readthedocs.io/) <!-- .element: class="fragment" data-fragment-index="2" -->
+							- <!-- .element: class="fragment" data-fragment-index="3" -->[Shapely](https://pypi.org/project/Shapely/)<!-- .element: class="fragment" data-fragment-index="3" -->,<!-- .element: class="fragment" data-fragment-index="3" --> [scikit-learn](http://scikit-learn.org/stable/) <!-- .element: class="fragment" data-fragment-index="3" -->
+						</script>
+					</section>
+						<section data-id="1" data-markdown>
+							<script type="text/template">
+								### Componentes
+	
+								![Diagrama de componentes](./img/componentes.png)
+							</script>
+	</section>
+	<section data-id="1" data-markdown>
+		<script type="text/template">
+			### Inicialización
+			![Diagrama de inicialización del proceso de geocodificación](./img/inicializacion.png)
+		</script>
+	</section>
+		<section data-id="1" data-markdown>
+			<script type="text/template">
+				### Geocodificación
+				![Diagrama de geocodificación propiamente dicha](./img/geocodificacion.png)
+			</script>
+		</section>
+		<section data-id="1" data-markdown>
+			<script type="text/template">
+				### Procesado de coordenadas
+				![Diagrama de procesado de coordenadas](./img/calculo_coordenadas.png)
+			</script>
+		</section>
+		<section data-id="1" data-markdown>
+			<script type="text/template">
+				### Selección del cluster
+				![Diagrama de seleccion del cluster](./img/seleccion_cluster.svg)
+			</script>
+		</section>
+		<section data-id="1" data-markdown>
+			<script type="text/template">
+				### Decisión para empresas
+				![Diagrama de seleccion para empresas](./img/decision_empresas.svg)
+			</script>
+		</section>
+		<section data-id="1" data-markdown>
+			<script type="text/template">
+				#### Decisión común
+				![Diagrama de seleccion común](./img/seleccion_comun.svg)
+			</script>
+</section>
+<section data-id="1" data-markdown>
+	<script type="text/template">
+		### Entorno urbano <!-- .slide: style="font-size: 30px;"-->
+		|Mejor (%)|Ok|Cerca|Indeterminado|Error|Revisión|Total|
+		|----------|-----:|------------:|-----:|------------:|---:|-----:|
+		|google|36,6|1,5|1,3|0,8|0,0|**40,2**|
+		|cartociudadV2|29,0|1,0|0,6|1,6|0,0|**32,2**|
+		|cartociudadV1|25,5|0,9|0,7|0,3|0,0|**27,4**|
+		|revisión|0,0|0,0|0,0|0,0|0,2|**0,2**|
+		|**Total**|**91,1** <!-- .element: class="fragment highlight-blue" data-fragment-index="1"-->|**3,4** <!-- .element: class="fragment highlight-blue" data-fragment-index="1"-->|**2,6**|**2,7**|**0,2**|**100,0**|
+
+	</script>
+</section>
+<section data-id="1" data-markdown>
+	<script type="text/template">
+		### Entorno rural <!-- .slide: style="font-size: 30px;"-->
+		|Mejor (%)|Ok|Cerca|Indeterminado|Error|Revisión|Total|
+		|----------|-----:|------------:|-----:|------------:|---:|-----:|
+		|google|32,2|3,6|4,4|1,7|0,0|**41,9**|
+		|cartociudadV2|19,6|2,7|2,0|1,8|0,0|**26,1**|
+		|cartociudadV1|16,2|2,7|1,6|0,6|0,0|**21,1**|
+		|revisión|0,0|0,0|0,0|0,0|10,9|**10,9**|
+		|**Total**|**68,0** <!-- .element: class="fragment highlight-blue" data-fragment-index="1"-->|**9,0** <!-- .element: class="fragment highlight-blue" data-fragment-index="1"-->|**8,0**|**4,1**|**10,9**|**100,0**|
+
+	</script>
+</section>
+<section data-id="1" data-markdown>
+	<script type="text/template">
+		### Precisión (P)
+		|Precisión (%)|Google|Metageocodificador|
+		|----------|-----:|------------:|
+		|Entornos rurales|92,0|95,0 <!-- .element: class="fragment highlight-blue" data-fragment-index="1"-->|
+		|Entornos urbanos|97,1|97,2 <!-- .element: class="fragment highlight-blue" data-fragment-index="1"-->|
+
+
+		$$P = \frac{VP}{VP + FP}$$
+
+
+		- *VP: Verdaderos Positivos*
+		- *FP: Falsos Positivos*
+	</script>
+</section>
+	</section>
 
 
 </section>
@@ -738,7 +838,7 @@
 						<div style="text-align: center; margin-top:-0.5em">
 							<img   alt="Web de documentos vs web de datos"  src="./img/semanticweb.png" style="max-width: none; max-height: none; color: rgb(255, 153, 0);" />
 						</div>
-						<small><a href="http://www.slideshare.net/AnaCarrillo3/retos-y-oportunidades-en-archivos-y-gestin-documental-ante-la-web-semntica-33821011">Retos y Oportunidades en Archivos y Gestión Documental ante la Web Semántica</a>, <span style="font-weight: bold;">Ana Carrillo Pozas</span></small>
+						<small><a href="https://www.w3.org/2001/12/semweb-fin/w3csw">W3C Semantic Web Activity</a> (<span style="font-weight: bold;">Marja-Riitta Koivunen, Eric Millers</span>)</small>
 
 
 
@@ -896,6 +996,7 @@
 			{ src: 'plugin/zoom-js/zoom.js', async: true },
 			{ src: 'plugin/tagcloud/tagcloud.js', async: true },
 			{ src: 'plugin/chalkboard/chalkboard.js' },
+			{ src: 'plugin/math/math.js', async: true },
 			{ src: 'plugin/notes/notes.js', async: true }
 			],
 			keyboard: {
