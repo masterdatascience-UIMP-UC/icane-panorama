@@ -50,6 +50,19 @@
 
 
 				</section>
+				<section data-markdown>
+						<script type="text/template">
+							### hoja de ruta
+
+							1. oficinas estadísticas públicas, informática estadística en el Gobierno de Cantabria
+							2. procesos ETL
+							3. caso de uso: directorio de empresas y establecimientos de Cantabria
+							4. bancos de datos estadísticos
+							5. visualización de datos
+							6. web semántica y datos estadísticos abiertos y enlazados
+
+							</script>
+					</section>
 				<section>
 					<section data-markdown>
 						<script type="text/template">
@@ -138,40 +151,6 @@
 
 					<section data-markdown>
 						<script type="text/template">
-							### ejemplo: PIB de Cantabria (CTC)
-
-							- se parte de estadísticas relacionadas con actividad económica y CRE<!-- .element: class="fragment" data-fragment-index="1" -->
-							- se elaboran indicadores sintéticos de actividad<!-- .element: class="fragment" data-fragment-index="2" -->
-							- se predice el VAB por sector y se trimestraliza el VAB anual<!-- .element: class="fragment" data-fragment-index="3" -->
-							- se obtiene el PIB trimestral de Cantabria a precios de mercado<!-- .element: class="fragment" data-fragment-index="4" -->
-
-						</script>
-					</section>
-
-					<section data-markdown>
-						<script type="text/template">
-							### ejemplo: PIB con análisis factorial
-
-							- se parte de indicadores relacionados y el propio PIB<!-- .element: class="fragment" data-fragment-index="1" -->
-							- se eligen aquellos con mayor correlación<!-- .element: class="fragment" data-fragment-index="2" -->
-							- se calcula un factor con los indicadores<!-- .element: class="fragment" data-fragment-index="3" -->
-
-						</script>
-					</section>
-
-					<section data-markdown>
-						<script type="text/template">
-							### ejemplo: PIB con BVAR
-
-							- VAR: PIB se estima a partir de sus valores presentes y pasados y del resto de indicadores<!-- .element: class="fragment" data-fragment-index="1" -->
-							- Indicadores: PIB España, PIB Cantabria, deflactor, empleo<!-- .element: class="fragment" data-fragment-index="2" -->
-							- Bayesian: se incorpora información a priori (ej: hipótesis de país pequeño)<!-- .element: class="fragment" data-fragment-index="3" -->
-
-						</script>
-					</section>
-
-					<section data-markdown>
-						<script type="text/template">
 							### ciencia de datos en estadística pública
 
 							existen varias competencias esenciales que no quedan necesariamente cubiertas por estadísticos e informáticos<!-- .element: class="fragment" data-fragment-index="1" -->
@@ -194,7 +173,7 @@
 							### nuevas competencias
 
 							- modelos de metadatos (<!-- .element: class="fragment" data-fragment-index="1" -->[DCAT](https://www.w3.org/TR/vocab-dcat/)<!-- .element: class="fragment" data-fragment-index="1" -->, [Dublin Core](http://dublincore.org/))<!-- .element: class="fragment" data-fragment-index="1" -->
-							- lingüística computacional<!-- .element: class="fragment" data-fragment-index="2" -->
+							- NLP (ejemplo: <!-- .element: class="fragment" data-fragment-index="2" -->[chatbot del ISTAC](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=2&ved=2ahUKEwi77OmF24_eAhVO5IUKHaJ0Bo8QFjABegQICBAC&url=https%3A%2F%2Fintranet.arte-consultores.com%2Farte-consultores%2Fnoticias-internas%2Fdownload%2F203%2F767%2F20&usg=AOvVaw0xAcZko7g6LclppPq6Q_Ht)<!-- .element: class="fragment" data-fragment-index="2" -->)<!-- .element: class="fragment" data-fragment-index="2" -->
 							- APIs REST<!-- .element: class="fragment" data-fragment-index="3" -->
 							- tratamiento de datos en Python y R<!-- .element: class="fragment" data-fragment-index="4" -->
 
@@ -224,6 +203,62 @@
 					<section  data-background="https://media.giphy.com/media/4aKWhznBC3Z0A/giphy.gif" >
 						<h3 style="color:white">se necesitan perfiles híbridos</h3>
 
+					</section>
+
+					<section data-markdown>
+							<script type="text/template">
+						### mientras tanto, el área de Informática Estadística del Gobierno de Cantabria:<!-- .slide: style="font-size: 30px;"-->
+
+						- Compuesta por funcionarios de perfiles mixtos: estadístico, Ingeniero de Telecomunicación, Graduado en Ingeniería de Tecnologías de la Información<!-- .element: class="fragment" data-fragment-index="1" -->
+						- 4 becas de formación para Licenciados o graduados en Física, Matemáticas, Ingeniería Informática, Ingeniería de Telecomunicación y ciclos formativos<!-- .element: class="fragment" data-fragment-index="2" -->
+						- Apuesta por una nueva línea de trabajo para el tratamiento de datos en el Gobierno de Cantabria<!-- .element: class="fragment" data-fragment-index="3" -->
+						- Depende directamente del Director General de Organización y Tecnología<!-- .element: class="fragment" data-fragment-index="4" -->
+						- Lleva a cabo otro tipo de tareas: contratación de bienes y servicios TIC, asesoramiento en RGPD y ENS, análisis de otras aplicaciones corporativas (Subvenciones, Contabilidad, etc.)<!-- .element: class="fragment" data-fragment-index="5" -->
+					</script>
+					</section>
+					<section data-markdown>
+						<script type="text/template">
+							## ejemplo: PIB de Cantabria (CTC)<!-- .slide: style="font-size: 30px;"-->
+							## ICANE
+
+							- Estadística trimestral partiendo de otras relacionadas con actividad económica y CRE<!-- .element: class="fragment" data-fragment-index="1" -->
+							- Predicción a más largo plazo para la <!-- .element: class="fragment" data-fragment-index="2" -->[AIReF](http://www.airef.es/inicio): <!-- .element: class="fragment" data-fragment-index="2" -->
+							  + Análisis factorial: <!-- .element: class="fragment" data-fragment-index="3" -->
+								- indicadores relacionados y el propio PIB <!-- .element: class="fragment" data-fragment-index="4" -->
+								- se eligen aquellos con mayor correlación <!-- .element: class="fragment" data-fragment-index="5" -->
+								- se calcula un factor con los indicadores <!-- .element: class="fragment" data-fragment-index="6" -->
+							  + BVAR: <!-- .element: class="fragment" data-fragment-index="7" -->
+								- PIB estimado a partir de valores presentes y pasados y del resto de indicadores<!-- .element: class="fragment" data-fragment-index="8" -->
+								- Bayesiano: se incorpora información a priori (hipótesis de país pequeño)<!-- .element: class="fragment" data-fragment-index="9" -->
+						
+								
+						</script>
+					</section>
+
+					<section data-markdown>
+						<script type="text/template">
+							### ejemplo: simulación pastoral para montes
+							#### DG Medio Natural
+
+							- Inputs: Mapas de montes, ortofotos, clima, suelos, vegetación, MET...<!-- .element: class="fragment" data-fragment-index="1" -->
+							- Outputs: simulación de suelo, plantas y herbívoros<!-- .element: class="fragment" data-fragment-index="2" -->
+
+							arquitectura mixta Rserver + Spring (Java)<!-- .element: class="fragment" data-fragment-index="3" -->
+
+						</script>
+					</section>
+
+					<section data-markdown>
+						<script type="text/template">
+							## otros ejemplos en marcha<!-- .slide: style="font-size: 30px;"-->
+
+							- Obtención de estadísticas diarias sobre Administración Electrónica para DG Organización y Tecnología<!-- .element: class="fragment" data-fragment-index="1" -->
+							- Difusión del estado de ejecución de los Presupuestos Generales del Gobierno de Cantabria para la DG de Servicios y Atención a la Ciudadanía<!-- .element: class="fragment" data-fragment-index="2" -->
+							- Estudio del impacto en la empleabilidad de parados de los cursos de formación del Servicio Cántabro de Empleo<!-- .element: class="fragment" data-fragment-index="3" -->
+							- Búsqueda de correlaciones entre causas de muerte y localización geográfica en Santander para el proyecto<!-- .element: class="fragment" data-fragment-index="4" --> [MEDEA](http://www.proyectomedea.org/)<!-- .element: class="fragment" data-fragment-index="4" -->
+							
+
+						</script>
 					</section>
 
 				</section>
@@ -398,125 +433,127 @@
 
 						</script>
 					</section>
+	</section>
+	<section>
+			<section data-markdown>
+					<script type="text/template">
+						### caso de uso: direcan
 
-					<section data-markdown>
-						<script type="text/template">
-							### caso de uso: direcan
-
-							![Workflow Directorio](./img/directorio.svg)
-
-
-						</script>
-					</section>
-
-					<section data-markdown>
-						<script type="text/template">
-							### geocodificación de direcciones postales
-
-							multigeocodificador
-
-							- Facilitar el proceso de geocodificación <!-- .element: class="fragment" data-fragment-index="1" -->
-							- Integrar diversos proveedores <!-- .element: class="fragment" data-fragment-index="2" -->
-							- Mejorar la fiabilidad de los resultados finales <!-- .element: class="fragment" data-fragment-index="3" -->
-							- Ponerlo en valor <!-- .element: class="fragment" data-fragment-index="4" -->
+						![Workflow Directorio](./img/directorio.svg)
 
 
-						</script>
-					</section>
+					</script>
+				</section>
+
+				<section data-markdown>
+					<script type="text/template">
+						### geocodificación de direcciones postales
+
+						multigeocodificador
+
+						- Facilitar el proceso de geocodificación <!-- .element: class="fragment" data-fragment-index="1" -->
+						- Integrar diversos proveedores <!-- .element: class="fragment" data-fragment-index="2" -->
+						- Mejorar la fiabilidad de los resultados finales <!-- .element: class="fragment" data-fragment-index="3" -->
+						- Ponerlo en valor <!-- .element: class="fragment" data-fragment-index="4" -->
+
+
+					</script>
+				</section>
+				<section data-id="1" data-markdown>
+					<script type="text/template">
+						### Tecnología
+
+						- <!-- .element: class="fragment" data-fragment-index="1" -->[Python 3.5](https://www.python.org/) <!-- .element: class="fragment" data-fragment-index="1" -->
+						- <!-- .element: class="fragment" data-fragment-index="2" -->[Geocoder 1.23.2](https://geocoder.readthedocs.io/) <!-- .element: class="fragment" data-fragment-index="2" -->
+						- <!-- .element: class="fragment" data-fragment-index="3" -->[Shapely](https://pypi.org/project/Shapely/)<!-- .element: class="fragment" data-fragment-index="3" -->,<!-- .element: class="fragment" data-fragment-index="3" --> [scikit-learn](http://scikit-learn.org/stable/) <!-- .element: class="fragment" data-fragment-index="3" -->
+					</script>
+				</section>
 					<section data-id="1" data-markdown>
 						<script type="text/template">
-							### Tecnología
-	
-							- <!-- .element: class="fragment" data-fragment-index="1" -->[Python 3.5](https://www.python.org/) <!-- .element: class="fragment" data-fragment-index="1" -->
-							- <!-- .element: class="fragment" data-fragment-index="2" -->[Geocoder 1.23.2](https://geocoder.readthedocs.io/) <!-- .element: class="fragment" data-fragment-index="2" -->
-							- <!-- .element: class="fragment" data-fragment-index="3" -->[Shapely](https://pypi.org/project/Shapely/)<!-- .element: class="fragment" data-fragment-index="3" -->,<!-- .element: class="fragment" data-fragment-index="3" --> [scikit-learn](http://scikit-learn.org/stable/) <!-- .element: class="fragment" data-fragment-index="3" -->
+							### Componentes
+
+							![Diagrama de componentes](./img/componentes.png)
 						</script>
-					</section>
-						<section data-id="1" data-markdown>
-							<script type="text/template">
-								### Componentes
-	
-								![Diagrama de componentes](./img/componentes.png)
-							</script>
+</section>
+<section data-id="1" data-markdown>
+	<script type="text/template">
+		### Inicialización
+		![Diagrama de inicialización del proceso de geocodificación](./img/inicializacion.png)
+	</script>
+</section>
+	<section data-id="1" data-markdown>
+		<script type="text/template">
+			### Geocodificación
+			![Diagrama de geocodificación propiamente dicha](./img/geocodificacion.png)
+		</script>
 	</section>
 	<section data-id="1" data-markdown>
 		<script type="text/template">
-			### Inicialización
-			![Diagrama de inicialización del proceso de geocodificación](./img/inicializacion.png)
+			### Procesado de coordenadas
+			![Diagrama de procesado de coordenadas](./img/calculo_coordenadas.png)
 		</script>
 	</section>
-		<section data-id="1" data-markdown>
-			<script type="text/template">
-				### Geocodificación
-				![Diagrama de geocodificación propiamente dicha](./img/geocodificacion.png)
-			</script>
-		</section>
-		<section data-id="1" data-markdown>
-			<script type="text/template">
-				### Procesado de coordenadas
-				![Diagrama de procesado de coordenadas](./img/calculo_coordenadas.png)
-			</script>
-		</section>
-		<section data-id="1" data-markdown>
-			<script type="text/template">
-				### Selección del cluster
-				![Diagrama de seleccion del cluster](./img/seleccion_cluster.svg)
-			</script>
-		</section>
-		<section data-id="1" data-markdown>
-			<script type="text/template">
-				### Decisión para empresas
-				![Diagrama de seleccion para empresas](./img/decision_empresas.svg)
-			</script>
-		</section>
-		<section data-id="1" data-markdown>
-			<script type="text/template">
-				#### Decisión común
-				![Diagrama de seleccion común](./img/seleccion_comun.svg)
-			</script>
+	<section data-id="1" data-markdown>
+		<script type="text/template">
+			### Selección del cluster
+			![Diagrama de seleccion del cluster](./img/seleccion_cluster.svg)
+		</script>
+	</section>
+	<section data-id="1" data-markdown>
+		<script type="text/template">
+			### Decisión para empresas
+			![Diagrama de seleccion para empresas](./img/decision_empresas.svg)
+		</script>
+	</section>
+	<section data-id="1" data-markdown>
+		<script type="text/template">
+			#### Decisión común
+			![Diagrama de seleccion común](./img/seleccion_comun.svg)
+		</script>
 </section>
 <section data-id="1" data-markdown>
-	<script type="text/template">
-		### Entorno urbano <!-- .slide: style="font-size: 30px;"-->
-		|Mejor (%)|Ok|Cerca|Indeterminado|Error|Revisión|Total|
-		|----------|-----:|------------:|-----:|------------:|---:|-----:|
-		|google|36,6|1,5|1,3|0,8|0,0|**40,2**|
-		|cartociudadV2|29,0|1,0|0,6|1,6|0,0|**32,2**|
-		|cartociudadV1|25,5|0,9|0,7|0,3|0,0|**27,4**|
-		|revisión|0,0|0,0|0,0|0,0|0,2|**0,2**|
-		|**Total**|**91,1** <!-- .element: class="fragment highlight-blue" data-fragment-index="1"-->|**3,4** <!-- .element: class="fragment highlight-blue" data-fragment-index="1"-->|**2,6**|**2,7**|**0,2**|**100,0**|
+<script type="text/template">
+	### Entorno urbano <!-- .slide: style="font-size: 30px;"-->
+	|Mejor (%)|Ok|Cerca|Indeterminado|Error|Revisión|Total|
+	|----------|-----:|------------:|-----:|------------:|---:|-----:|
+	|google|36,6|1,5|1,3|0,8|0,0|**40,2**|
+	|cartociudadV2|29,0|1,0|0,6|1,6|0,0|**32,2**|
+	|cartociudadV1|25,5|0,9|0,7|0,3|0,0|**27,4**|
+	|revisión|0,0|0,0|0,0|0,0|0,2|**0,2**|
+	|**Total**|**91,1** <!-- .element: class="fragment highlight-blue" data-fragment-index="1"-->|**3,4** <!-- .element: class="fragment highlight-blue" data-fragment-index="1"-->|**2,6**|**2,7**|**0,2**|**100,0**|
 
-	</script>
+</script>
 </section>
 <section data-id="1" data-markdown>
-	<script type="text/template">
-		### Entorno rural <!-- .slide: style="font-size: 30px;"-->
-		|Mejor (%)|Ok|Cerca|Indeterminado|Error|Revisión|Total|
-		|----------|-----:|------------:|-----:|------------:|---:|-----:|
-		|google|32,2|3,6|4,4|1,7|0,0|**41,9**|
-		|cartociudadV2|19,6|2,7|2,0|1,8|0,0|**26,1**|
-		|cartociudadV1|16,2|2,7|1,6|0,6|0,0|**21,1**|
-		|revisión|0,0|0,0|0,0|0,0|10,9|**10,9**|
-		|**Total**|**68,0** <!-- .element: class="fragment highlight-blue" data-fragment-index="1"-->|**9,0** <!-- .element: class="fragment highlight-blue" data-fragment-index="1"-->|**8,0**|**4,1**|**10,9**|**100,0**|
+<script type="text/template">
+	### Entorno rural <!-- .slide: style="font-size: 30px;"-->
+	|Mejor (%)|Ok|Cerca|Indeterminado|Error|Revisión|Total|
+	|----------|-----:|------------:|-----:|------------:|---:|-----:|
+	|google|32,2|3,6|4,4|1,7|0,0|**41,9**|
+	|cartociudadV2|19,6|2,7|2,0|1,8|0,0|**26,1**|
+	|cartociudadV1|16,2|2,7|1,6|0,6|0,0|**21,1**|
+	|revisión|0,0|0,0|0,0|0,0|10,9|**10,9**|
+	|**Total**|**68,0** <!-- .element: class="fragment highlight-blue" data-fragment-index="1"-->|**9,0** <!-- .element: class="fragment highlight-blue" data-fragment-index="1"-->|**8,0**|**4,1**|**10,9**|**100,0**|
 
-	</script>
+</script>
 </section>
 <section data-id="1" data-markdown>
-	<script type="text/template">
-		### Precisión (P)
-		|Precisión (%)|Google|Metageocodificador|
-		|----------|-----:|------------:|
-		|Entornos rurales|92,0|95,0 <!-- .element: class="fragment highlight-blue" data-fragment-index="1"-->|
-		|Entornos urbanos|97,1|97,2 <!-- .element: class="fragment highlight-blue" data-fragment-index="1"-->|
+<script type="text/template">
+	### Precisión (P)
+	|Precisión (%)|Google|Metageocodificador|
+	|----------|-----:|------------:|
+	|Entornos rurales|92,0|95,0 <!-- .element: class="fragment highlight-blue" data-fragment-index="1"-->|
+	|Entornos urbanos|97,1|97,2 <!-- .element: class="fragment highlight-blue" data-fragment-index="1"-->|
 
 
-		$$P = \frac{VP}{VP + FP}$$
+	$$P = \frac{VP}{VP + FP}$$
 
 
-		- *VP: Verdaderos Positivos*
-		- *FP: Falsos Positivos*
-	</script>
+	- *VP: Verdaderos Positivos*
+	- *FP: Falsos Positivos*
+</script>
 </section>
+
 	</section>
 
 
@@ -631,7 +668,7 @@
 						</script>
 					</section>
 					<section data-id="2b">
-						<h3 style="font-style: normal; font-variant: normal; font-weight: bold;">
+						<h3>
 							OLAP y estadística
 						</h3>
 						<table style="font-size:20px">
@@ -658,7 +695,7 @@
 							</tr>
 							<tr>
 								<td class="fragment" data-fragment-index="4">valores no numéricos</td>
-								<td class="fragment" data-fragment-index="4">no aplica al sistema Mondrian</td>
+								<td class="fragment" data-fragment-index="4">microservicios externos</td>
 							</tr>
 							<tr class="rowSeparation">
 								<td class="fragment" data-fragment-index="5"><span style="font-weight:bold;font-size:30px">secreto</span> estadístico</td>
@@ -773,11 +810,13 @@
 						<script type="text/template">
 							### ¿el futuro?
 
-							enfoque mixto: datasets en JSON almacenados en BD NoSQL orientada a documento<!-- .element: class="fragment" data-fragment-index="1" -->
+							banco de datos modular basado en microservicios<!-- .element: class="fragment" data-fragment-index="1" -->
 
-							JSON-stat + MongoDB + Javascript<!-- .element: class="fragment" data-fragment-index="2" -->
+							enfoque mixto: datasets en JSON almacenados en BD NoSQL orientada a documento<!-- .element: class="fragment" data-fragment-index="2" -->
 
-							## MEAN<!-- .element: class="fragment" data-fragment-index="3" -->
+							JSON-stat + MongoDB + Javascript (Vue?) + Python?<!-- .element: class="fragment" data-fragment-index="3" -->
+
+							## MEAN<!-- .element: class="fragment" data-fragment-index="4" -->
 
 
 						</script>
@@ -796,26 +835,36 @@
 					</section>
 
 					<section data-id="12a">
-						<h3 style="font-style: normal; font-variant: normal; font-weight: bold;">
+						<h3>
 							dataviz: <a href="http://www.icane.es/data/cpi-base-2011-coicop-general-group-index#timeseries">básica</a>
 						</h3>
 						<img alt="Captura chart ICANE"  src="./img/googlechart.png" style="max-width: none; max-height: none; color: rgb(255, 153, 0);  vertical-align:middle;" />
 						<p><a href="https://developers.google.com/chart/?hl=es">Google Charts</a>: simple y con <a href="./chart.html">poco código</a> </p>
 					</section>
 					<section data-id="12b">
-						<h3 style="font-style: normal; font-variant: normal; font-weight: bold;">
+						<h3>
 							dataviz: <a href="http://www.icane.es/data/municipal-register-annual-review-municipality#timeseries">mapas</a>
 						</h3>
 						<img alt="Captura mapas ICANE"  src="./img/choromap.png" style="max-width: none; max-height: none; color: rgb(255, 153, 0);  vertical-align:middle;" />
 						<p><a href="http://dmitrybaranovskiy.github.io/raphael/">Raphael.js</a>: estándar (SVG) y browser-compatible </p>
 					</section>
 					<section data-id="12c">
-						<h3 style="font-style: normal; font-variant: normal; font-weight: bold;">
+						<h3>
 							dataviz: <a href="https://developers.google.com/chart/interactive/docs/gallery/geomap">Google Geomap</a>
 						</h3>
 						<a href="http://www.icane.es/data/export-import-geographic-areas-countries#timeseries"><img alt="Captura mapamundi ICANE"  src="./img/mapamundi.png" style="max-width: none; max-height: none; color: rgb(255, 153, 0);  vertical-align:middle;" /> </a>
 
 					</section>
+				
+						
+							<section data-markdown>
+								<script type="text/template">
+								## otras
+								- [D3.js](https://d3js.org/)
+								- [chart.js](https://www.chartjs.org/)
+								- [Apex charts](https://apexcharts.com/)
+								</script>
+						</section>
 					<section data-markdown>
 						<script type="text/template">
 							## widgets de datos
@@ -823,7 +872,10 @@
 							> Pequeña aplicación, programa o módulo que puede contener información visual, numérica o ambas</blockquote>
 
 
-							¡las [Fichas Municipales de Cantabria](http://www.icane.es/munreport) están llenas de widgets!
+							¡las <!-- .element: class="fragment" data-fragment-index="1" -->[Fichas Municipales de Cantabria](http://www.icane.es/munreport)<!-- .element: class="fragment" data-fragment-index="1" --> están llenas de widgets!<!-- .element: class="fragment" data-fragment-index="1" -->
+
+							
+							aunque ya hay cosas <!-- .element: class="fragment" data-fragment-index="2" -->[mejores](https://stat-viewer.firebaseapp.com/)<!-- .element: class="fragment" data-fragment-index="2" -->
 
 
 						</script>
@@ -956,8 +1008,8 @@
 							<a href="http://www.icane.es"><img alt="Logotipo ICANE"  src="./img/logo500.png" style="max-width: none; max-height: none; color: rgb(255, 153, 0);  vertical-align:middle;" />
 							</a>
 							<a href="http://www.cantabria.es"><img alt="Logotipo DGOT"  src="./img/informatica500.png" style="max-width: none; max-height: none; color: rgb(255, 153, 0);  vertical-align:middle; " /> </a>
-							<p style="font-size:20px; text-align:center; margin-top: 1em"><span style="font-weight: bold;"><a href="https://github.com/masterdatascienceifca/icane-panorama">Acceso al repositorio con la presentación</a></span></p>
-							<p style="font-size:20px; text-align:center; margin-top: 1em"><span style="font-weight: bold;">URL de la presentación: <a href="https://masterdatascienceifca.github.io/icane-panorama/">https://masterdatascienceifca.github.io/icane-panorama/</a></span></p>
+							<p style="font-size:20px; text-align:center; margin-top: 1em"><span style="font-weight: bold;"><a href="https://github.com/masterdatascience-UIMP-UC/icane-panorama">Acceso al repositorio con la presentación</a></span></p>
+							<p style="font-size:20px; text-align:center; margin-top: 1em"><span style="font-weight: bold;">URL de la presentación: <a href="https://masterdatascience-UIMP-UC.github.io/icane-panorama/">https://masterdatascience-UIMP-UC.github.io/icane-panorama/</a></span></p>
 
 
 							<p style="font-size:20px; text-align:center; margin-top: 1em"><span style="font-weight: bold;"><a href="https://twitter.com/predicador37">Miguel Expósito Martín</a></span></p>
