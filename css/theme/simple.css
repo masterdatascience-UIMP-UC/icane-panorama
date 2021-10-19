@@ -106,6 +106,18 @@ body {
 .reveal ul {
   list-style-type: disc; }
 
+.reveal li {
+    padding-top: 0.5em;
+  }
+
+
+ul li::before {
+
+  padding-right: 1%;
+
+}
+
+
 .reveal ul ul {
   list-style-type: square; }
 
