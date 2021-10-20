@@ -97,6 +97,7 @@ body {
 .reveal dl,
 .reveal ul {
   display: inline-block;
+  inline-size: 85%;
   text-align: left;
   margin: 0 0 0 1em; }
 
@@ -129,13 +130,13 @@ ul li::before {
 .reveal ol ol,
 .reveal ol ul {
   display: block;
-  margin-left: 40px; }
+  margin-left: 30px; }
 
 .reveal dt {
   font-weight: bold; }
 
 .reveal dd {
-  margin-left: 40px; }
+  margin-left: 30px; }
 
 .reveal blockquote {
   display: block;

@@ -55,7 +55,7 @@
 						<script type="text/template">
 							## Hoja de ruta
 
-							1. Oficinas estadísticas públicas, informática estadística en el Gobierno de Cantabria
+							1. Administración pública, ciencia de datos y oficinas estadísticas: caso de Cantabria
 							2. Procesos ETL
 							3. Caso de uso: directorio de empresas y establecimientos de Cantabria
 							4. Bancos de datos estadísticos
@@ -163,7 +163,7 @@
 							## Nuevas competencias
 
 							- Modelos de metadatos (<!-- .element: class="fragment" data-fragment-index="1" -->[DCAT](https://www.w3.org/TR/vocab-dcat/)<!-- .element: class="fragment" data-fragment-index="1" -->, [Dublin Core](http://dublincore.org/))<!-- .element: class="fragment" data-fragment-index="1" -->
-							- NLP (ejemplo: <!-- .element: class="fragment" data-fragment-index="2" -->[chatbot del ISTAC](http://www.jecas.es/ponencias/posteres_ponecia/JECAS2018%20INTELIGENCIA%20ARTIFICIAL%20APLICADA%20A%20LA%20ESTAD%C3%8DSTICA%20PUBLICA.pdf)<!-- .element: class="fragment" data-fragment-index="2" -->)<!-- .element: class="fragment" data-fragment-index="2" -->
+							- NLP (ejemplo: <!-- .element: class="fragment" data-fragment-index="2" -->[chatbot del ISTAC](https://twitter.com/istac_bot?lang=es)<!-- .element: class="fragment" data-fragment-index="2" -->)<!-- .element: class="fragment" data-fragment-index="2" -->
 							- APIs REST<!-- .element: class="fragment" data-fragment-index="3" -->
 							- Tratamiento de datos en Python y R<!-- .element: class="fragment" data-fragment-index="4" -->
 
@@ -186,6 +186,8 @@
 							## Actuaciones en marcha
 
 							Creación de especialidades de científico de datos y técnico de ciencia de datos en cuerpos de la Administración Pública<!-- .element: class="fragment" data-fragment-index="1" -->
+
+							[Oficina del dato](https://www.boe.es/eli/es/o/2020/07/31/etd803)<!-- .element: class="fragment" data-fragment-index="2" -->
 
 						</script>
 					</section>
@@ -210,8 +212,8 @@
 							<script type="text/template">
 						### El área de Informática Estadística del Gobierno de Cantabria:<!-- .slide: style="font-size: 30px;"-->
 
-						- Funcionarios de perfiles mixtos: Estadística, Informática (grados y ciclos formativos)<!-- .element: class="fragment" data-fragment-index="1" -->
-						- Becas de formación: Física, Matemáticas, Ingeniería Informática, Ingeniería de Telecomunicación y ciclos formativos<!-- .element: class="fragment" data-fragment-index="2" -->
+						- Funcionarios de perfiles mixtos: estadística, informática (grados y ciclos formativos)<!-- .element: class="fragment" data-fragment-index="1" -->
+						- Becas de formación en áreas estadística e informática<!-- .element: class="fragment" data-fragment-index="2" -->
 						- Apuesta por una nueva línea de trabajo para el tratamiento de datos en el Gobierno de Cantabria<!-- .element: class="fragment" data-fragment-index="3" -->
 						- Depende directamente de la Dirección General de Organización y Tecnología<!-- .element: class="fragment" data-fragment-index="4" -->
 						- Otras tareas: contratación de bienes y servicios TIC, asesoramiento en RGPD y ENS, análisis de otras aplicaciones corporativas (Subvenciones, Contabilidad, etc.)<!-- .element: class="fragment" data-fragment-index="5" -->
@@ -220,17 +222,13 @@
 					<section data-markdown>
 						<script type="text/template">
 							### Ejemplo: PIB de Cantabria (CTC)<!-- .slide: style="font-size: 30px;"-->
-							### ICANE
 
 							- Estadística trimestral partiendo de otras relacionadas con actividad económica y CRE<!-- .element: class="fragment" data-fragment-index="1" -->
 							- Predicción a más largo plazo para la <!-- .element: class="fragment" data-fragment-index="2" -->[AIReF](http://www.airef.es/inicio): <!-- .element: class="fragment" data-fragment-index="2" -->
 							  + Análisis factorial: <!-- .element: class="fragment" data-fragment-index="3" -->
-								- indicadores relacionados y el propio PIB <!-- .element: class="fragment" data-fragment-index="4" -->
-								- se eligen aquellos con mayor correlación <!-- .element: class="fragment" data-fragment-index="5" -->
-								- se calcula un factor con los indicadores <!-- .element: class="fragment" data-fragment-index="6" -->
-							  + BVAR: <!-- .element: class="fragment" data-fragment-index="7" -->
-								- PIB estimado a partir de valores presentes y pasados y del resto de indicadores<!-- .element: class="fragment" data-fragment-index="8" -->
-								- Bayesiano: se incorpora información a priori (hipótesis de país pequeño)<!-- .element: class="fragment" data-fragment-index="9" -->
+								- indicadores con mayor correlación + PIB<!-- .element: class="fragment" data-fragment-index="4" -->
+								- se calcula un factor con los indicadores <!-- .element: class="fragment" data-fragment-index="5" -->
+							  + BVAR: PIB estimado a partir de valores presentes y pasados y del resto de indicadores, incorporando información a priori (hipótesis de país pequeño) <!-- .element: class="fragment" data-fragment-index="7" -->
 						
 								
 						</script>
@@ -239,12 +237,11 @@
 					<section data-markdown>
 						<script type="text/template">
 							## Ejemplo: simulación pastoral para montes
-							### DG Medio Natural
 
 							- Inputs: Mapas de montes, ortofotos, clima, suelos, vegetación, MET...<!-- .element: class="fragment" data-fragment-index="1" -->
 							- Outputs: simulación de suelo, plantas y herbívoros<!-- .element: class="fragment" data-fragment-index="2" -->
 
-							arquitectura mixta Rserver + Spring (Java)<!-- .element: class="fragment" data-fragment-index="3" -->
+							Arquitectura mixta Rserver + Spring (Java)<!-- .element: class="fragment" data-fragment-index="3" -->
 
 						</script>
 					</section>
@@ -346,7 +343,7 @@
 						<script type="text/template">
 							## Evolución: integración de datos en Java
 
-							- Pentaho Data Integration (aka Kettle)<!-- .element: class="fragment" data-fragment-index="1" -->
+							- Pentaho Data Integration (aka Kettle, ahora también Apache HOP)<!-- .element: class="fragment" data-fragment-index="1" -->
 							- Trabajos, transformaciones y pasos<!-- .element: class="fragment" data-fragment-index="2" -->
 							- Facilidad de uso con GUI<!-- .element: class="fragment" data-fragment-index="3" -->
 							- Completo catálogo de pasos de transformación<!-- .element: class="fragment" data-fragment-index="4" -->
@@ -437,7 +434,7 @@
 
 						![Workflow Directorio](./img/directorio.svg)
 
-
+						[Ver difusión de resultados](https://www.icane.es/direcan)
 					</script>
 				</section>
 
@@ -603,7 +600,7 @@
 						<script type="text/template">
 							## Tipos: orientados a BD
 
-							Los datos se almacenan en un SGBDR y se sirven a través de una aplicación web<!-- .element: class="fragment" data-fragment-index="1" -->
+							Los datos se almacenan en un SGBDR y se sirven mediante app web<!-- .element: class="fragment" data-fragment-index="1" -->
 
 							- Aporta todas las ventajas de una BDR (ACID)<!-- .element: class="fragment" data-fragment-index="2" -->
 							- Facilita la conversión entre formatos<!-- .element: class="fragment" data-fragment-index="3" -->
@@ -617,7 +614,7 @@
 						<script type="text/template">
 							## Tipos: orientados a BI
 
-							Los datos se almacenan en un SGBDR y se sirven a través de un motor OLAP<!-- .element: class="fragment" data-fragment-index="1" -->
+							Los datos se almacenan en un SGBDR y se sirven mediante motor OLAP<!-- .element: class="fragment" data-fragment-index="1" -->
 
 							- Caso particular del tipo anterior<!-- .element: class="fragment" data-fragment-index="2" -->
 							- Capa adicional de mantenimiento: cubos OLAP<!-- .element: class="fragment" data-fragment-index="3" -->
@@ -741,7 +738,7 @@
 				</section>
 					<section data-markdown>
 						<script type="text/template">
-							## ¿Qué podemos hacer con todo esto?
+							## ¿Qué podemos hacer con esto?
 							<div class="fragment" data-fragment-index="1">[Un cuaderno...](http://nbviewer.ipython.org/gist/predicador37/94eacb48d4461cbfc98c)</div>
 
 							<div class="fragment" data-fragment-index="2">[empotrar un widget en una web...](./chart.html)</div>
